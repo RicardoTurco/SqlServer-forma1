@@ -24,10 +24,15 @@ Criar uma "conexão" informando as credenciais:
 (a conexão só será criada, se o "container" criado no passo "A" estiver OK)
 
 Host: localhost
+
 Port: 1433
+
 Database/Schema: master
+
 Username: sa
+
 Password: Secret1234
+
 <br>
 <br>
 <br>
@@ -67,7 +72,9 @@ Os passos abaixo, não são obrigatórios ...
 mas ALTAMENTE recomendados (após a ativação da VIRTUALENV):
 
 python -m pip install --upgrade pip
+
 pip install -U setuptools
+
 pip install wheel
 <br>
 <br>
